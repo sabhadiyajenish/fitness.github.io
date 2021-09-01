@@ -190,18 +190,16 @@ font-size: 22px;
     min-height: 50px;
     z-index: 999;
   }
-   /* @media only screen and (max-width: 1198px) {
+  .gmap{
+      width: auto;
+  }
+   @media only screen and (max-width: 500px) {
   
-    .footer{
-        position: absolute;
-        bottom: -16px;
-        position: fixed;
-        width: 437px;
-        overflow-x: scroll;
-        background-color: #fff;
+    .gmap{
+        width: 250px;
     }
 }
- @media only screen and (max-width: 992px) {
+ /*@media only screen and (max-width: 992px) {
   
      .footer{
         position: absolute;
