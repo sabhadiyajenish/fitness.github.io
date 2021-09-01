@@ -1,0 +1,227 @@
+.img1{
+    
+    border: 1px solid rgb(226, 222, 222);
+}
+.main-div{
+    border: 10px solid #00a3e4;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px grey inset;
+}
+.main-div3{
+    border: 6px solid #ef429d;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px grey inset;
+}
+
+.fa-star{
+    color:#FFB900; 
+    font-size: 20px;
+    margin-left: 5px;
+}
+.fa-star-half-alt{
+    color:#FFB900; 
+    font-size: 20px;
+    margin-left: 5px;
+}
+.xyz{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #ef429d;
+    border-radius: 40px;
+    color:#fff;
+}
+.xyz7{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #ef429d;
+    border-radius: 40px;
+    color:#fff;
+}
+.xyz:hover{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 40px;
+    color:#ef429d;
+    transition: 0.4s;
+    box-shadow: 2px 0px 6px grey;
+}
+.xyz3{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 40px;
+    color:#ef429d;
+    transition: 0.4s;
+    box-shadow: 2px 0px 6px grey;
+}
+.center-1{
+    margin-left: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+.text3{
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+.text1{
+    color: #000;
+    font-weight: 600;
+    font-size:15px;
+    margin-top: 15px;
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+}
+.main-zzz{
+    background-color:#00a3e4 ;
+}
+.input {
+    height: 35px;
+    padding: 10px;
+    outline: none;
+}
+.input1{
+color: #fff;
+font-size: 22px;
+}
+.xyz6{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 40px;
+    color:#fff;
+    border: 1px solid #fff;
+    margin-right: 10px; 
+}
+.xyz6:hover{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 40px;
+    color: black;
+    transition: 0.4s;
+    box-shadow: 2px 0px 6px grey;
+}
+.data{
+    
+    box-shadow: 3px 3px 10px grey ;
+    padding: 5px;  
+    
+}
+.data1{
+    
+    box-shadow: 3px 3px 10px grey ;
+    padding: 5px;  
+    background-color: #f5c4de; 
+}
+.x1{
+    background-color: blue;
+}
+.x2{
+    background-color: rgb(81, 247, 59);
+}
+.x3{
+    background-color: #1da1f2;
+}
+.x4{
+    background-color: #C32AA3;
+}
+.papa{
+    display: inline-block;
+	padding-bottom: 5px;
+}
+.papa:after{
+    content: '';
+	display: block;
+	margin: auto;
+	height: 5px;
+	animation: underline 1.5s infinite;
+}
+@keyframes underline {
+    0% { width: 0%; background-color: #ef429d;}
+    100% {width: 100%; background-color: transparent;}
+  }
+  .footer{
+      position: absolute;
+      bottom: -16px;
+      position: fixed;
+      background-color: #fff;
+  }
+  ul {
+    list-style-type: none;
+    padding-top: 8px;
+    overflow-x: scroll;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation{
+    position: fixed;
+    bottom: 0px;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    min-height: 50px;
+    z-index: 999;
+  }
+   /* @media only screen and (max-width: 1198px) {
+  
+    .footer{
+        position: absolute;
+        bottom: -16px;
+        position: fixed;
+        width: 437px;
+        overflow-x: scroll;
+        background-color: #fff;
+    }
+}
+ @media only screen and (max-width: 992px) {
+  
+     .footer{
+        position: absolute;
+        bottom: -16px;
+        position: fixed;
+        width: 495px;
+        overflow-x: scroll;
+        background-color: #fff;
+    }
+}
+
+@media only screen and (max-width: 578px) {
+  
+      .footer{
+        position: absolute;
+        bottom: -16px;
+        position: fixed;
+        width: 520px;
+        overflow-x: scroll;
+        background-color: #fff;
+    }
+
+} */
